@@ -7,6 +7,7 @@ def mesap(q):
 
 
 #P18
+
 def carroca_m_p((a, b, c, d)):
 	y = (1==0)
 	if y == (1==0):
@@ -15,6 +16,7 @@ def carroca_m_p((a, b, c, d)):
 	return y
 
 #P19
+
 def pontos_marcados(a):
 	y = 0
 	for i in a:
@@ -24,6 +26,7 @@ def pontos_marcados(a):
 	else : return 0
 
 #P20
+
 def pode_jogar_p((a, b), (c, d, e, f)):
 	y = (1==0)
 	for i in (c, d, e, f):
@@ -34,6 +37,7 @@ def pode_jogar_p((a, b), (c, d, e, f)):
 
 
 #P21
+
 def marca_ponto_p((a, b), c):
 	if maior_ponto((a, b), c) >= 0 : return (1==1)
 	else : return (1==0)

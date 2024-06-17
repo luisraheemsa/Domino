@@ -1,13 +1,16 @@
 # Parte 3 - Processamento de Cadeia de Caracteres
 
 #40
+
 def e_palav(l):
 	return l.isalpha()
 #41	
+
 def e_int(l):
 	return l.isdigit()
 
 #42
+
 def conjuga(v,t):
 	if v[len(v)-2]=='a' and t=='presente':
 		c=v.split('ar')
@@ -64,11 +67,13 @@ def conjuga(v,t):
 		y=[pe[i]+conj[i] for i in range(6)]
 		return(y)
 #43		
+
 def e_float(l):
 	 if '.' in l:
 		t=''.join(l.split('.'))
 		return (t.isdigit())
 #44	 
+
 def int_frac(l):
 	a=l.isdigit()
 	if a==True:
@@ -79,6 +84,7 @@ def int_frac(l):
 			w= l.split('.')
 			return (w)
 #45		
+
 def traduz(l):
 	u=['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove']
 	d=['dez', 'vinte', 'trinta', 'quarenta', 'cinquenta', 'sessenta', 'oitenta', 'noventa']

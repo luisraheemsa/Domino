@@ -67,6 +67,4 @@ def tira_maior_v(v,mao):
     del mao[i]
     return mao
     return mao
-    
-   
 
